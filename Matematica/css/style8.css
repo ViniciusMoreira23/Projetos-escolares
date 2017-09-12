@@ -1,0 +1,102 @@
+
+
+.container > header h1,
+.container > header h2 {
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.cs-text {
+	width: 330px;
+	margin: 120px auto 30px;
+	cursor: default;
+	-webkit-transform: skewY(-12deg);
+	-moz-transform: skewY(-12deg);
+	-o-transform: skewY(-12deg);
+	-ms-transform: skewY(-12deg);
+	transform: skewY(-12deg);
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	text-align: center;
+}
+
+.cs-text span {
+	display: block;
+	color: #fff;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-top: 6px;
+	font-family: 'Stint Ultra Expanded', cursive;
+}
+
+
+.cs-text span:nth-child(1){
+float:left;
+color: red;
+
+margin-top: 0px;
+}
+.cs-text span:nth-child(2) {
+	width: 350px;
+}
+.cs-text span:nth-child(1),
+.cs-text span:nth-child(2) {
+	margin-bottom: -10px;
+	font-size: 37px;
+	letter-spacing: 25px;
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.3);
+	
+}
+
+.cs-text span:nth-child(3) {
+	width: 330px;
+	font-family: Georgia, serif;
+	font-weight: 400;
+	text-transform: none;
+	font-style: italic;
+	line-height: 60px;
+	font-size: 30px;
+	color: #392f2c;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.3);
+	position: relative;
+}
+
+.cs-text span:nth-child(3):before,
+.cs-text span:nth-child(3):after {
+	content: '';
+	width: 120px;
+	height: 2px;
+	background: #392f2c;
+	position: absolute;
+	top: 50%;
+	margin-top: -1px;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.2);
+}
+
+.cs-text span:nth-child(3):before {
+	left: 0px;
+}
+
+.cs-text span:nth-child(3):after {
+	right: 0px;
+}
+
+.cs-text span:nth-child(4) {
+	font-size: 70px;
+	width: 330px;
+	margin-top:-10px;
+	margin-left: 2px;
+	letter-spacing: 5px;
+	text-shadow: 
+		1px 1px 0 #645f59,
+		2px 2px 0 #fff,
+		3px 3px 0 #645f59,
+		4px 4px 0 #fff,
+		5px 5px 0 #645f59,
+		6px 6px 0 #fff,
+		7px 7px 0 #645f59,
+		8px 8px 0 #fff,
+		9px 9px 0 #645f59;	
+}
+
+

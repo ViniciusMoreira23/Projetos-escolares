@@ -1,0 +1,134 @@
+/****************** CONFIGURAÇÕES DA PAGINA ******************/
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	width: 100%;
+	height: 100%;
+	z-index: -3;
+}
+
+iframe{
+	
+}
+
+/********** PRIMEIRA CAMADA CHAVE (Z-index = 1) *************/
+#cont2{ 
+	/*animation-name: sumir*/
+	animation-duration: 1s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
+/*KEYFRAME*/
+@keyframes sumir {
+	0% {
+		position: absolute;
+	}
+
+	100% {
+		position: absolute; 
+		left:3000px;
+	}
+}
+
+#chave{
+	width: 450px;
+	height: 450px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.0);
+	position: absolute;
+	top: 0px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+	border-radius: 5000px;
+	overflow: hidden;
+	font-size: 40px;
+	/*animation-name: desaparecer;*/
+	animation-duration: 1s;
+	animation-delay: 0.1s;
+	animation-fill-mode: forwards;
+	z-index: 10000;
+	/*background: linear-gradient(#9dd2ea, #8bceec);*/
+	
+	
+	
+}
+
+.cont{
+	
+	box-shadow: 0px 10px 10px #888888;
+	animation: fumaca 10s infinite;
+}
+
+	@keyframes fumac{
+	0%{ box-shadow: 0px 10px 10px #888888;}
+	
+
+	50%{ box-shadow: 0px 10px 100px #888888;}
+	
+
+	100%{ box-shadow: 0px 10px 10px #888888;}
+	
+}
+
+/*KEYFRAME*/
+@keyframes desaparecer {
+	0% {
+
+		opacity: 1.0;
+
+	}
+
+	100% {
+	
+		opacity: 0.0;
+	}
+}
+
+#video{
+	width: 800px;
+	position: absolute;
+	top: 0px;
+	left: -35%;
+	bottom: 0px;
+	right: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align: center;
+	opacity: 0.9;
+}
+
+/********************* ANIMAÇÂO DO BEM-VINDO******************/
+.container2{
+	
+	width: 300px;
+	height: 300px;
+	color: white;
+	font-family: arial;
+	
+	position: absolute;
+	top: 10px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: 60px;
+	overflow: hidden;
+}
+
+.container2 h3{
+	font-size: 20px;
+}
+
+

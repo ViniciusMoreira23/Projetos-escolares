@@ -1,0 +1,10 @@
+Nattan;3
+Vinicius;2
+Helena;1
+Henrique;0
+;6
+b;4
+b;4
+b;4
+c;5
+d;6
